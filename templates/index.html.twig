@@ -2,6 +2,10 @@
 
 {% block body %}
 
-	<h4>Hi there !</h4>
+	{% if is_granted('ROLE_USER') %}
+		<h4>{{ " Hi " ~ app.user.username ~ " ! " }}</h4>
+	{% else %}
+		<h4>Log in please !</h4>
+	{% endif %}
 
 {% endblock %}

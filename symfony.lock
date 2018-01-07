@@ -23,6 +23,9 @@
     "doctrine/lexer": {
         "version": "v1.0.1"
     },
+    "kriswallsmith/assetic": {
+        "version": "v1.4.0"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -43,6 +46,12 @@
             "version": "4.0",
             "ref": "aaddfdf43cdecd4cf91f992052d76c2cadc04543"
         }
+    },
+    "symfony/asset": {
+        "version": "v3.4.3"
+    },
+    "symfony/assetic-bundle": {
+        "version": "v2.8.2"
     },
     "symfony/cache": {
         "version": "v3.4.3"
@@ -128,6 +137,9 @@
     "symfony/polyfill-util": {
         "version": "v1.6.0"
     },
+    "symfony/process": {
+        "version": "v3.4.3"
+    },
     "symfony/profiler-pack": {
         "version": "v1.0.3"
     },
@@ -156,6 +168,9 @@
         }
     },
     "symfony/stopwatch": {
+        "version": "v3.4.3"
+    },
+    "symfony/templating": {
         "version": "v3.4.3"
     },
     "symfony/twig-bridge": {
