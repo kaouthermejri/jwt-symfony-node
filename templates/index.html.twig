@@ -3,10 +3,20 @@
 
 {% block body %}
 
-	{% if is_granted('ROLE_USER') %}
+	{% if app.user %}
 		<h4>{{ " Hi " ~ app.user.username ~ " ! " }}</h4>
 	{% else %}
 		<h4>Log in please !</h4>
 	{% endif %}
+
+	<br/>
+
+	<div>
+		<div>Decode token at <a href="https://jwt.io/">https://jwt.io/</a></div> 
+		<p>{{ token }}</p>
+	</div>
+
+	<ul id="users" data-token="{{ token }}">
+	</ul>
 
 {% endblock %}

@@ -23,6 +23,9 @@
     "doctrine/lexer": {
         "version": "v1.0.1"
     },
+    "firebase/php-jwt": {
+        "version": "v5.0.0"
+    },
     "kriswallsmith/assetic": {
         "version": "v1.4.0"
     },
