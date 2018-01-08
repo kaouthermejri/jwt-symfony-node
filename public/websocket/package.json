@@ -1,0 +1,22 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "JWT & Socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sturquier/jwt-symfony-node.git"
+  },
+  "author": "Simon Turquier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sturquier/jwt-symfony-node/issues"
+  },
+  "homepage": "https://github.com/sturquier/jwt-symfony-node#readme",
+  "dependencies": {
+    "socket.io": "^2.0.4"
+  }
+}
