@@ -53,6 +53,10 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
+        ],
+        "build-project": [
+            "composer install",
+            "cd public/websocket && npm install"
         ]
     },
     "conflict": {
